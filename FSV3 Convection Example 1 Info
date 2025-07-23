@@ -1,0 +1,6 @@
+This gif shows the output of a fluid simulation where the initial flow velocity is static (everywhere vanishing), and where the initial heat distribuation (HD) is uniform.
+
+The domain -- or "box" -- is thermally insulated (normal derivative of the HD Q(x,y) vanishes on the boundary), and there is a localised heat source centered at coords ( Lx/2, Ly/4 )
+
+Convection is approximated in this model by the addition of a "fictional" forcing term to the RHS of the Navier-Stokes momentum equation which is proportional to
+negative the derivative of the HD Q(x,y) in the vertical (y) direction.
