@@ -1,0 +1,10 @@
+This gif shows the output of Fluid Sim V3.1 -- an improved version of Fluid sim V3.
+
+The fluid is initially at rest, and the initial heat distribution is uniform.
+There is no heat source/sink in this example, and the box is thermally insulated, so the heat distribution has little to no effect on the dynamics of the fluid
+-- (the heat distribution is not visualised in this gif)
+
+I have modelled a force that is localised in the botton left corner which acts to propel the fluid directly upwards, resulting in the formation of a current flowing clockwise
+The fluid has relatively low viscosity
+
+The quiver plot indicates the direction of the flow, and the heat map indicates the flow speed -- with blue indicating low speed, and red indicating high speed
