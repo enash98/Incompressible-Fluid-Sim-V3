@@ -1,0 +1,13 @@
+Background information for the gif file:
+FSV3.1.1 Fluid Heat Exchanger.gif
+
+This gif shows a simultation (Fluid Sim V3.1.1.py) of a fluid in a box whose left and right vertical walls are thermally insulated, whose ceiling is maintained at a constant low temperature,
+and whose floor is mainted at a constant temperature distribution that is cool towards the edges and peaks slightly to the left of center.
+-- specifically, the floor temperature distribution (as a function of the x-coordinate) is given by:
+f(x) = 0.5*( 1 - cos( 2*pi*x / Lx ) ) * exp( -2*x / Lx ) * 2.4
+
+The fluid is subject to convection forces due to temperature gradients.
+
+The fluid is initially at rest, and the initial temperature distribution is a vertical linear interpolation between the constant floor and ceiling temperature distributions
+
+The temperature distribution is represented by a colourmap with blue representing lower temperature regions, and red representing higher temperature regions
