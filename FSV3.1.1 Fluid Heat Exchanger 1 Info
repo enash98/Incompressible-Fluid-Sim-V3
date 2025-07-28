@@ -1,5 +1,5 @@
 Background information for the gif file:
-FSV3.1.1 Fluid Heat Exchanger.gif
+FSV3.1.1 Fluid Heat Exchanger 1.gif
 
 This gif shows a simultation (Fluid Sim V3.1.1.py) of a fluid in a box whose left and right vertical walls are thermally insulated, whose ceiling is maintained at a constant low temperature,
 and whose floor is mainted at a constant temperature distribution that is cool towards the edges and peaks slightly to the left of center.
